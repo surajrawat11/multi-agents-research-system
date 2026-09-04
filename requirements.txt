@@ -27,3 +27,6 @@ Jinja2==3.1.2
 
 # Optional: Web Search
 tavily-python==0.3.1
+
+streamlit>=1.40.0
+langchain-groq>=0.1.0
