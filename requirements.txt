@@ -1,32 +1,39 @@
-# Core Dependencies
-anthropic==0.42.0
-python-dotenv==1.0.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
-httpx==0.25.2
-aiohttp==3.9.1
 streamlit
-langchain-groq==1.1.3
 
-# CLI
-click==8.1.7
-rich==13.7.0
+# LangChain + Groq
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
 
-# Optional: Document Processing
-PyPDF2==3.0.1
-beautifulsoup4==4.12.2
-lxml==4.9.3
+# LLM providers
+anthropic
+openai
 
-# Optional: Data Analysis
-pandas==2.1.4
-numpy==1.26.3
+# Environment
+python-dotenv
 
-# Optional: Report Generation
-markdown2==2.4.10
-Jinja2==3.1.2
+# Web search / scraping
+tavily-python
+beautifulsoup4
+requests
+lxml
 
-# Optional: Web Search
-tavily-python==0.3.1
+# Async
+aiohttp
 
-streamlit>=1.40.0
-langchain-groq>=0.1.0
+# Data
+pandas
+numpy
+
+# Document processing
+PyPDF2
+
+# Report generation
+markdown2
+Jinja2
+
+# CLI / UI
+click
+rich
